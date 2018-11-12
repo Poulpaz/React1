@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
-import { Game } from "./Game";
+import {Game} from "./Game";
 
 class App extends Component {
-
   render() {
     return (
-      <div className="Game">
-        <header className="Game-header">
-            <div className="game">
-                <div className="GameBoard">
-                    <Game/>
-                </div>
-            </div>
+      <div className="App">
+        <header className="App-header">
+          <Game/>
         </header>
       </div>
     );
